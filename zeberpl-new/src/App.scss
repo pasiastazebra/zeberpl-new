@@ -1,3 +1,11 @@
 .test {
-    background-color: red;
+    border: black solid 0.2mm;
+
+    background-color: #f78383;
+}
+
+.page {
+    display: grid;
+
+    grid-template-columns: 47% 6% 47%;
 }
