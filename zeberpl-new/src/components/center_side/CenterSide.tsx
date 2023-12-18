@@ -3,7 +3,7 @@ import "./CenterSide.scss";
 function CenterSide() {
   return (
     <>
-      <p className="test">Center side</p>
+      <p className="test fullheight">Center side</p>
     </>
   );
 }

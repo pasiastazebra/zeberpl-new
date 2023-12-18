@@ -3,7 +3,7 @@ import "./RightSide.scss";
 function RightSide() {
   return (
     <>
-      <p className="test">Right side</p>
+      <p className="test fullheight">Right side</p>
     </>
   );
 }

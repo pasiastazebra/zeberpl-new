@@ -1,0 +1,38 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    margin: 0px 0px 5px 0px;
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+
+    height: 40px;
+
+    &-logo {
+        display: flex;
+        align-items: center;
+        
+        height: 95%;
+
+        &-img {
+            height: 65%;
+        }
+    }
+
+    &-options {
+        display: flex;
+
+        &-link {
+            display: inline;
+
+            margin: 2px;
+            
+            font-size: 20px;
+        }
+    }
+}
